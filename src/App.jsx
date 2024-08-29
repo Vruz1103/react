@@ -1,14 +1,26 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import './App.css'
+import Fruits from './components/fruits'
 import Hello from './components/Hello'
+import ConditionalComponent from './components/ConditionalComponent'
 
 function App() {
   // const [count, setCount] = useState(0)
-
-  return (
+  // const seatNumbers=[1,4,7];
+  // const person={
+  //   name:"Jake",
+  //   message:"Hello",
+  //   emoji:"😊",
+  //   seatNumbers:[1,4,7],
+  // }
+  return ( 
     <div className="App"> 
-    <Hello/>
+    <ConditionalComponent/>
+    {/* <Fruits/> */}
+    {/* <Hello person={person}/> */}
+    {/* <Hello name="Vrunda" message="Hi there!" emoji="👋" seatNumbers={seatNumbers}/> */}
+    {/* <Hello name="Vrunda" message="Hi there! Buddy"  emoji="👋"/> */}
     {/* Hello World! */}
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
