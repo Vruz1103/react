@@ -5,6 +5,8 @@ import Fruits from './components/fruits'
 import Hello from './components/Hello'
 import ConditionalComponent from './components/ConditionalComponent'
 import Message from './components/Message'
+import Counter from './components/Counter'
+import Form from './components/Form'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -16,8 +18,10 @@ function App() {
   //   seatNumbers:[1,4,7],
   // }
   return (  
-    <div className="App"> 
-    <Message/>
+    <div className="App">
+      <Form/> 
+    {/* <Counter/> */}
+    {/* <Message/> */}
     {/* <ConditionalComponent/> */}
     {/* <Fruits/> */}
     {/* <Hello person={person}/> */}
