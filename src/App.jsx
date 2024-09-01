@@ -4,6 +4,7 @@
 import Fruits from './components/fruits'
 import Hello from './components/Hello'
 import ConditionalComponent from './components/ConditionalComponent'
+import Message from './components/Message'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -14,9 +15,10 @@ function App() {
   //   emoji:"😊",
   //   seatNumbers:[1,4,7],
   // }
-  return ( 
+  return (  
     <div className="App"> 
-    <ConditionalComponent/>
+    <Message/>
+    {/* <ConditionalComponent/> */}
     {/* <Fruits/> */}
     {/* <Hello person={person}/> */}
     {/* <Hello name="Vrunda" message="Hi there!" emoji="👋" seatNumbers={seatNumbers}/> */}

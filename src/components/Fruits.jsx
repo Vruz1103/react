@@ -20,30 +20,35 @@ export default function Fruits(){
    const fruits=[
     {name:"Apple",
      price:10,
-     emoji:"🍎"
+     emoji:"🍎",
+     soldout:false,
     },
     {name:"Mango",
         price:7,
-        emoji:"🥭"
+        emoji:"🥭",
+        soldout:false,
     },
     {name:"Banana",
         price:2,
-        emoji:"🍌"
+        emoji:"🍌",
+        soldout:true,
     },
     {name:"Orange",
         price:5,
-        emoji:"🍊"
+        emoji:"🍊",
+        soldout:false,
     },
     {name:"Pineapple",
         price:8,
-        emoji:"🍍"
+        emoji:"🍍",
+        soldout:true,
     },
    ]
     return <div>
         <ul>
            {fruits.map((fruit)=>(
-           <Fruit key={fruit.name} name={fruit.name} price={fruit.price} emoji={fruit.emoji}/>))}
+           <Fruit key={fruit.name} name={fruit.name} price={fruit.price} emoji={fruit.emoji} soldout={fruit.soldout} />))}
     {/* {fruits.map((fruit)=>(<li key={fruit.name}>{fruit.name} ${fruit.price}{fruit.emoji}</li>))}  */}
     </ul>
     </div>
-}
+} 
