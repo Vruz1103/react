@@ -1,6 +1,6 @@
 import { useState } from 'react';
 // import reactLogo from './assets/react.svg'
-// import './App.css'
+import './App.css'
 import Fruits from './components/fruits';
 import Hello from './components/Hello';
 import ConditionalComponent from './components/ConditionalComponent';
@@ -8,6 +8,12 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import Form from './components/Form';
 import TicTacToe from './components/Tictactoe';
+import Todo from './components/Todo';
+import InlineComponent from './components/InlineComponent';
+import OutlineComponent from './components/OutlineComponent';
+import HeaderTodo from './components/HeaderTodo';
+// import HooksLearnings from './components/HooksLearnings';
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,7 +26,12 @@ function App() {
   };
   return (
     <div className="App">
-      <TicTacToe/>
+      {/* <HooksLearnings/> */}
+      {/* <InlineComponent/> */}
+      {/* <OutlineComponent/> */}
+      <HeaderTodo/>
+      <Todo/>
+      {/* <TicTacToe/> */}
       {/* <Form/>  */}
       {/* <Counter /> */}
       {/* <Message/> */}

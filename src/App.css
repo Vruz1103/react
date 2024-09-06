@@ -87,3 +87,9 @@ body {
   border-radius: 1rem;
   border: none;
 } */
+
+/* TODO APP CSS*/
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
